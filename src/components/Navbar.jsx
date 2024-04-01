@@ -8,7 +8,7 @@ export default function Navbar({setShowLogin}) {
 
   return (
     <div className="h-[5rem] w-full flex flex-row justify-between px-8 md:px-16 lg:px-24 xl:px-32 nav ">
-      <Link to='/'>
+      <Link to='/Crave-Food-Delivery-App/'>
         <img src={assets.logo} className="h-[4rem] self-center py-2" alt="Logo" />
         </Link>
       <ul className="hidden md:flex flex-row justify-evenly w-[400px] ">
