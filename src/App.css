@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.scroll-remove{
+    overflow-y: auto;
+-ms-overflow-style: none;
+scrollbar-width:thin;
+}
+
+/* hide scrollbar for chrome, safari and opera */
+.scroll-remove::-webkit-scrollbar {
+display: none;
+}
