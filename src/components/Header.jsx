@@ -21,7 +21,7 @@ export default function Header({setShowLogin}) {
       <div className=" w-[90vw] mx-auto pt-10 px-4 sm:px-6  lg:px-3 relative z-20 ">
         <Navbar setShowLogin={setShowLogin}  />
         {/* { showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></> } */}
-        <div className="mx-auto my-auto pt-10 pb-20 flex flex-col items-center  md:w-[100%] lg:mt-[20vh]">
+        <div className="mx-auto my-auto pt-10 flex flex-col items-center  md:w-[100%] lg:mt-[20vh]">
           <h2 className=" w-90  text-white font-semibold text-4xl md:w-[100%] md:text-5xl text-center  uppercase   leading-relaxed md:leading-relaxed ">
             Your Cravings Answered, Delivered to Your Door
           </h2>

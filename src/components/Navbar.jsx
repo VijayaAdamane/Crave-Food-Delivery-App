@@ -18,7 +18,7 @@ export default function Navbar({setShowLogin}) {
         >Home</Link>
         <a
           href="#explore-menu"
-          className={menu =="Menu" ? " lg:text-2xl text-white text-[15px] self-center border-b-2 cursor-pointer " : "text-white text-[15px] self-center cursor-pointer  lg:text-2xl" }
+          className={menu =="Menu" ? " lg:text-xl text-white text-[15px] self-center border-b-2 cursor-pointer " : "text-white text-[15px] self-center cursor-pointer  lg:text-xl" }
           onClick={() => setMenu("Menu")}
         >Menu</a>
         <a

@@ -3,8 +3,8 @@ import React from "react";
 
 export default function ExploreMenu({ category, setCategory }) {
   return (
-    <div className=" bg-gray-200 font-IBMSans pb-10 px-20 pt-10 " id="explore-menu">
-      <h3 className="pt-10 text-gray-800 text-4xl font-bold  pb-1 border-b-[5px] border-red-500 mb-10 mx-10">
+    <div className=" bg-gray-200 font-IBMSans pb-10 px-5 pt-10 lg:px-20" id="explore-menu">
+      <h3 className="text-gray-800 text-4xl font-bold  pb-1 border-b-[5px] border-red-500 mb-10 mx-1">
         See What's on the Menu
       </h3>
 
