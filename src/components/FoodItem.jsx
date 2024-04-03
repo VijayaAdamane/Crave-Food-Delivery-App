@@ -6,7 +6,7 @@ export default function FoodItem({ id, name, price, description, image }) {
   const {cartItems, addToCart, removeFromCart} = useContext(StoreContext);
 
   return (
-    <div className="w-[90%] bg-white flex flex-col border-gray-200 border-5  rounded-2xl pb-5 hover:border-gray-200 transform hover:scale-105 transition duration-300 ease-in-out md:w-[300px] ">
+    <div className="w-[95%] bg-white flex flex-col border-gray-200 border-5  rounded-2xl pb-5 hover:border-gray-200 transform hover:scale-105 transition duration-300 ease-in-out md:w-[300px] ">
       <div className="relative">
         <img src={image} className="w-full"></img>
         <div className="absolute bottom-3 right-2 flex flex-col">
